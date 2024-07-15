@@ -1,0 +1,19 @@
+{
+  "name": "ect_excercisedemoproject",
+  "version": "1.0.0",
+  "description": "Ellipsis feature testing for LCAP Application",
+  "main": "cypress.config.js",
+  "author": "Sheethal",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "cypress": "^13.13.0",
+    "jsdom": "^24.1.0"
+  }
+}

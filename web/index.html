@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipsis Feature Mock Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ellipsis Feature Mock Application</h1>
+        <div class="component">
+            <label>
+                Enable Ellipsis:
+                <input type="checkbox" id="ellipsis-toggle" />
+            </label>
+            <label>
+                Word Count:
+                <input type="text" id="word-count" min="0" max="1000" />
+            </label>
+            <label>
+                Content(Any)
+                <textarea id="input-text" placeholder="Enter your text here..."></textarea>
+            </label>
+            <label>Truncated Message</label>
+            <div id="output-text" class="output"></div>
+        </div>
+    </div>
+    <script src="..\truncate_function\truncateMessage.js"></script>
+</body>
+</html>
